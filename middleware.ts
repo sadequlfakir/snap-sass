@@ -1,5 +1,4 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
-import { PUBLIC_DIR_MIDDLEWARE_CONFLICT } from 'next/dist/lib/constants';
 
 const isProtectedRoute = createRouteMatcher([
   '/credits(.*)',
